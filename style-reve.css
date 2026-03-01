@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0B3D2E; /* vert forêt foncé */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #F1F8F4;
+}
+
+/* En-tête */
+#entete-de-page {
+    padding: 20px;
+    height: 100px;
+    background-color: #145A32; /* vert foncé */
+    font-size: 32px;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* Menu */
+#bloc-menu {
+    background-color: #1E8449; /* vert moyen */
+    text-align: center;
+    padding: 10px 0;
+}
+
+#bloc-menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+#bloc-menu a:hover {
+    color: #A9DFBF; /* vert menthe clair */
+}
+
+/* Contenu */
+#contenu {
+    padding: 20px;
+    background-color: #196F3D; /* vert soutenu */
+    color: #F1F8F4;
+}
+
+/* Infos */
+#infos {
+    color: #A9DFBF;
+    font-style: italic;
+}
+
+/* Pied de page */
+#pied-de-page {
+    padding: 10px;
+    background-color: #145A32; /* même que l’entête */
+    font-size: 12px;
+    text-align: center;
+    color: #D5F5E3;
+}
+
+/* Images arrondies */
+.arrondie {
+    border-radius: 20px;
+}
+
+/* Centrer les images */
+img {
+    display: block;
+    margin: 20px auto;
+}
+
+/* Vidéos YouTube */
+iframe {
+    display: block;
+    border: none;
+    width: 90%;
+    margin: 20px auto;
+}
